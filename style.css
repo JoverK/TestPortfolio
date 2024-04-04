@@ -707,13 +707,21 @@ span{
 
 }
 
-@media (max-width:650px){
+@media (max-width:390px){
  
     .services-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         gap: 2rem;
+    }
+
+    .heading{
+        font-size: 5rem;
+    }
+
+    .header{
+        font-size: 1rem;
     }
 
     .service-box{
@@ -728,7 +736,7 @@ span{
         margin-top: 5;
     }
     .service-box p{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-weight: 400;
         max-height: 50px;
         margin-bottom: 5px;
