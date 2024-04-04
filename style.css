@@ -741,7 +741,12 @@ span{
         max-height: 50px;
         margin-bottom: 5px;
     }
-  
+    .service-box:hover{
+        background: transparent;
+        color: var(--main-color);
+        box-shadow: 0 0 20px var(--main-color);
+        z-index: 1;
+    }
 }
 
 @media (max-width:430px){
@@ -778,6 +783,11 @@ span{
         max-height: 50px;
         margin-bottom: 5px;
     }
-   
+    .service-box:hover{
+        background: transparent;
+        color: var(--main-color);
+        box-shadow: 0 0 20px var(--main-color);
+        z-index: 1;
+    }
 }
 
